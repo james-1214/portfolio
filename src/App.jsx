@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import Header from "./Components/Header";
-import Main from "./Components/Main";
+import Header from "./components/Header";
+import Main from "./components/Main";
 import About from "./components/About";
-import Skill from "./Components/Skill";
-import Project from "./Components/Project";
-import Service from "./Components/Service";
-import Contact from "./Components/Contact";
-import Footer from "./Components/Footer";
+import Skill from "./components/Skill";
+import Project from "./components/Project";
+import Service from "./components/Service";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 const App = () => {
