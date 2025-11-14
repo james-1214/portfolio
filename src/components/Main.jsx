@@ -29,7 +29,7 @@ const Main = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <a
-                href="/myresume.pdf"
+                href="/James resume.pdf"
                 download="JAMES_J_CV.pdf"
                 className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-7 py-3.5 rounded-xl font-semibold transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-indigo-500/40"
               >

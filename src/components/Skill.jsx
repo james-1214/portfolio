@@ -2,9 +2,12 @@ import React from "react";
 
 const Skill = () => {
   const skills = [
-    { name: "React", level: 75, category: "Frontend" },
+    { name: "React JS", level: 75, category: "Frontend" },
     { name: "JavaScript", level: 90, category: "Frontend" },
-    { name: "HTML/CSS", level: 99, category: "Frontend" },
+    { name: "HTML", level: 99, category: "Frontend" },
+    { name: "CSS", level: 99, category: "Frontend" },
+    { name: "JAVA", level: 70, category: "Core-Language" },
+
     // { name: "Node.js", level: 70, category: "Backend" },
     // { name: "Express.js", level: 80, category: "Backend" },
     // { name: "MongoDB", level: 65, category: "Database" },
@@ -12,7 +15,10 @@ const Skill = () => {
   ];
 
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center bg-white py-20" id="skills">
+    <section
+      className="min-h-screen flex flex-col justify-center items-center bg-white py-20"
+      id="skills"
+    >
       <div className="max-w-6xl mx-auto px-6 w-full">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-extrabold text-gray-900 mb-4 relative inline-block after:content-[''] after:absolute after:bottom-[-10px] after:left-1/2 after:-translate-x-1/2 after:w-16 after:h-1 after:bg-gradient-to-r after:from-indigo-500 after:to-purple-600 after:rounded-full">
@@ -28,8 +34,12 @@ const Skill = () => {
               className="bg-white p-6 rounded-xl shadow-lg hover:-translate-y-1 transition-transform duration-300"
             >
               <div className="flex justify-between items-center mb-4">
-                <span className="font-semibold text-gray-700 text-lg">{skill.name}</span>
-                <span className="font-semibold text-indigo-500 text-sm">{skill.level}%</span>
+                <span className="font-semibold text-gray-700 text-lg">
+                  {skill.name}
+                </span>
+                <span className="font-semibold text-indigo-500 text-sm">
+                  {skill.level}%
+                </span>
               </div>
               <div className="h-2 bg-gray-200 rounded-full overflow-hidden mb-2">
                 <div

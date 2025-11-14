@@ -27,8 +27,8 @@ const About = () => {
               className="inline-flex items-center gap-2 bg-transparent text-indigo-500 border-2 border-indigo-500 px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:bg-indigo-500 hover:text-white"
               onClick={() => {
                 const link = document.createElement("a");
-                link.href = "/myresume.pdf";
-                link.download = "Afreen_Ahmed_CV.pdf";
+                link.href = "/James resume.pdf";
+                link.download = "James_J_Resume.pdf";
                 link.click();
               }}
             >
